@@ -8,6 +8,8 @@ import getChapterData from "../../lib/getChapterData";
 import Navbar from "./components/Navbar/Navbar";
 import ChapterList from "./components/ChapterList";
 const cardImage = `https://i.ibb.co.com/992ymbtb/speaking-Course.jpg`;
+import CookieConsent from "./components/CookieConsent/CookieConsent.jsx";
+
 
 const ubuntu = Ubuntu({
   subsets: ["latin"],
@@ -64,7 +66,7 @@ export default async function RootLayout({ children }) {
             {children}
           </div>
         </div>
-
+        <CookieConsent/>
         {/* ------------------Global Footer ------------------- */}
         <Footer />
         <GoogleAnalytics gaId="G-YM9TZWWD6D" />

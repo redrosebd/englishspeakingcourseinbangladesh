@@ -20,7 +20,8 @@ const BookCover = () => {
           <div className="font-semibold text-[15px] md:text-[17px] bg-white text-[#075F8F]   p-3 md:p-4 rounded-lg shadow-md flex gap-2  hover:bg-[#075F8F] hover:text-white">
             <FaQuoteLeft />{" "}
             <p>
-              মাত্র ১০ টি অধ্যায় - শেষ করে আপনি upgrade করুন spoken Reading writing & listening
+              মাত্র ১০ টি অধ্যায় - শেষ করে আপনি upgrade করুন spoken Reading
+              writing & listening
             </p>{" "}
             <FaQuoteRight />
           </div>
