@@ -20,7 +20,7 @@ const ContactModal = ({ isOpen, onClose }) => {
           </p>
           <p className="flex items-center gap-2">
             <FaPhone />
-            <a href="tel:+8801826192179" target="_blank" className="text-blue-600 hover:underline">+880 1826192179</a>
+            <a href="tel:+8801898884425" target="_blank" className="text-blue-600 hover:underline">01898884425</a>
           </p>
           <p className="flex items-center gap-2">
             <IoIosMail />
