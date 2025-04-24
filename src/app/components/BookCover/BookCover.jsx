@@ -5,14 +5,13 @@ import newApp2 from "../../../../public/image/NewApp2.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import { FaQuoteRight, FaQuoteLeft } from "react-icons/fa6";
+import './BookCover.css';
+
 const BookCover = () => {
   return (
     <div className="w-11/12 md:w-10/12 lg:w-full mx-auto pt-5 ">
       <div className="mb-20">
-        <h1
-          className="font-bold text-xl md:text-2xl lg:text-3xl mb-5 text-[#075f8f] drop-shadow-md
-"
-        >
+        <h1 className="font-bold text-xl md:text-2xl lg:text-3xl mb-5 text-[#075f8f] drop-shadow-md">
           English speaking course in bangladesh :-
         </h1>
 
@@ -26,6 +25,14 @@ const BookCover = () => {
             <FaQuoteRight />
           </div>
           <div className="font-semibold text-[15px] md:text-[17px] bg-white text-[#075F8F]   p-3 md:p-4 rounded-lg shadow-md flex gap-2  hover:bg-[#075F8F] hover:text-white">
+            <FaQuoteLeft />{" "}
+            <p>
+              অতি অল্প সময়ে ইংরেজিতে অনর্গল কথা বলতে zaman স্যারের পেইড কোর্সটি
+              হতে পারে আপনার জন্য উপযুক্ত
+            </p>
+            <FaQuoteRight />
+          </div>
+          <div className="font-semibold text-[15px] md:text-[17px] bg-white text-[#075F8F]   p-3 md:p-4 rounded-lg shadow-md flex gap-2  hover:bg-[#075F8F] hover:text-white">
             <FaQuoteLeft />
             <p>
               Spoken English শিখতে আগ্রহী অথবা IELTS প্রত্যাশী, ইউনিভার্সিটি,
@@ -35,15 +42,46 @@ const BookCover = () => {
             <FaQuoteRight />
           </div>
           <div className="font-semibold text-[15px] md:text-[17px] bg-white text-[#075F8F]   p-3 md:p-4 rounded-lg shadow-md flex gap-2  hover:bg-[#075F8F] hover:text-white">
-            <FaQuoteLeft />{" "}
+            <FaQuoteLeft />
             <p>
-              অতি অল্প সময়ে ইংরেজিতে অনর্গল কথা বলতে zaman স্যারের পেইড কোর্সটি
-              হতে পারে আপনার জন্য উপযুক্ত
+              অতি আগ্রহী শিক্ষার্থী অথবা সিরিয়াস লার্নারদের জন্য রয়েছে Zaman
+              স্যারের paid কোর্স ।সরাসরি ক্লাসে ভর্তি হতে নিচের contact option
+              থেকে যোগাযোগ করুন
             </p>
             <FaQuoteRight />
           </div>
         </div>
       </div>
+
+      {/* ---------- New Styled Card Will Be here------------- */}
+      <div className="card-container">
+        <div className="card-wrapper">
+          <div className="card-background red-background"></div>
+          <div className="card-content">
+            <p>Card text will be here</p>
+            <div className="quote-left red-quote">
+              <FaQuoteLeft size={20} />
+            </div>
+            <div className="quote-right red-quote">
+              <FaQuoteRight size={20} />
+            </div>
+          </div>
+        </div>
+        <div className="card-wrapper">
+          <div className="card-background yellow-background"></div>
+          <div className="card-content">
+            <p>Card text will be here</p>
+            <div className="quote-left yellow-quote">
+              <FaQuoteLeft size={20} />
+            </div>
+            <div className="quote-right yellow-quote">
+              <FaQuoteRight size={20} />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ----------------------------------------------------- */}
 
       <div className="flex flex-col justify-center items-center gap-y-4 my-7">
         <span className="font-semibold text-lg text-blue-500">
