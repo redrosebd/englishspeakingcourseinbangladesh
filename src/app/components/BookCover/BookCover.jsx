@@ -37,9 +37,8 @@ const BookCover = () => {
           <div className="font-semibold text-[15px] md:text-[17px] bg-white text-[#075F8F]   p-3 md:p-4 rounded-lg shadow-md flex gap-2  hover:bg-[#075F8F] hover:text-white">
             <FaQuoteLeft />{" "}
             <p>
-              অতি আগ্রহী শিক্ষার্থী অথবা সিরিয়াস লার্নারদের জন্য রয়েছে Zaman
-              স্যারের paid কোর্স ।সরাসরি ক্লাসে ভর্তি হতে নিচের contact option
-              থেকে যোগাযোগ করুন
+              অতি অল্প সময়ে ইংরেজিতে অনর্গল কথা বলতে zaman স্যারের পেইড কোর্সটি
+              হতে পারে আপনার জন্য উপযুক্ত
             </p>
             <FaQuoteRight />
           </div>
