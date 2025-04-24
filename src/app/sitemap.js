@@ -37,7 +37,19 @@ export default async function sitemap() {
         changeFrequency: 'weekly',
         priority: 1,
       },
-      ...dynamicPages
+      ...dynamicPages,
+      {
+        url: `${siteURL}/TermsAndConditions`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: .5,
+      },
+      {
+        url: `${siteURL}/PrivacyPolicy`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: .5,
+      },
       
     ]
   }
